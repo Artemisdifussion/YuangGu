@@ -1,64 +1,90 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
+title: "简历"
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 个人信息
+---
+*   **微信**: gya17602404537
+*   **邮箱**: guyuang364@gmail.com
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## 教育经历
+---
+*   **帝国理工学院（Imperial College London）** | 医学物理 | 2024.09 – 2025.10
+*   **东北大学（985/211）** | 生物医学工程 | 2020.09 – 2024.06
+    *   学业成绩: GPA 86/100，专业排名前20%
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## 荣誉奖项
+---
+*   东北大学医学与生物信息工程学院优秀毕业生 (2024)
+*   全国大学生数学建模竞赛省级二等奖 (2022)
+*   东北大学医学与生物信息工程学院二等奖学金 (2022)
+*   东北大学医学与生物信息工程学院二等奖学金 (2021)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 技能水平
+---
+*   **语言水平**: CET-4, CET-6, 雅思6.5，英语可作为工作语言。
+*   **技术栈**:
+    *   熟练运用 TensorFlow 等主流框架，深入掌握多种深度学习算法。
+    *   擅长使用 SQL 与 SPSS 等数据管理与统计分析工具。
+    *   精通 C# 及 WinForm 技术进行软件开发。
+    *   熟悉 Qt 框架及 MySQL 数据库。
+*   **办公软件**: 精通 Xmind、Office套件（Word, Excel, PowerPoint）。
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 实习经历
+---
+**先临三维科技股份有限公司** | 医疗器械注册实习生 | 2024.06 – 2024.08
+*   负责辅助进行新产品备案/注册、备案/注册证变更，医疗器械生产许可证和注册证到期的延续进度跟进。
+*   协助国际市场的医疗器械准入资质，跟进海外认证项目的进度情况，准备海外代理商所需材料，积极与代理商沟通跟进注册进度。
+*   辅助进行医疗器械产品标准及医疗器械行业其他相关标准收集、转化。
+*   负责2024上半年度国内外证书翻译及归档、注册通用资料的更新。
+
+**东软医疗系统设备有限公司** | 实习生 | 2023.06 – 2023.07
+*   **需求调研**: 开展用户调研，了解智慧医疗监控平台的终端用户及管理员需求，优化平台界面与功能。
+*   **平台开发**: 使用 Qt 框架设计并实现管理员界面，集成 MySQL 数据库，支持用户记录的增删改查。独立开发用户登录界面。
+*   **数据可视**: 制作 PowerPoint 演示文稿和报告，向团队及管理层汇报项目进展。
+
+## 科研经历
+---
+**快速 4D-CBCT 高质量重建和运动补偿** | 2023.06 – 2024.06
+*   **项目背景**: 聚焦4D-CBCT，探索创新重建算法，以满足临床需求，减少辐射剂量并提高图像精确度。
+*   **职责**:
+    *   主导市场需求调研，确认项目关键点。
+    *   负责综述撰写，设计并实施深度学习模型架构（RTK, FDK, 扩散模型），提高图像质量。
+    *   通过迭代优化 U-Net 架构，增强模型对呼吸运动伪影的处理能力。
+    *   有效管理项目进度，定期与导师沟通，确保项目高效执行。
+*   **成果**: 开发出创新的4D-CBCT重建算法，显著提升图像质量，减少扫描时间和辐射暴露。算法能有效消除运动伪影，提高了放疗定位精度。
+
+**基于可穿戴传感技术和深度学习算法的手势识别** | 2023.09 – 2024.06
+*   **项目背景**: 探索更精准、灵活且适应性强的手势识别解决方案。
+*   **职责**:
+    *   系统性回顾74篇文献，把握研究前沿。
+    *   设计需求分析框架，兼顾动态与静态手势识别的需求差异。
+    *   通过小规模预测试，快速验证三类常用深度学习模型的有效性。
+    *   构建模型与任务匹配表，为研究人员提供实用指南，规避风险。
+*   **成果**: 产出论文《基于深度学习算法的可穿戴传感技术的手势识别： 现在、过去与未来》，已投递至SCI一区期刊。
+
+## 项目经历
+---
+**矩阵式受力应变传感器检测软件V1.0** | 核心成员 | 2021.09 – 2022.10
+*   **项目背景**: 开发一款软件解决方案，基于阵列式柔性导电橡胶传感器，为医疗设备提供精确的力学参数评估。
+*   **职责**:
+    *   撰写项目计划书，成功获得省级资助（5000元研究经费）。
+    *   运用 C# 及 WinForm 技术，实现传感器数据的实时获取与处理，优化受力分析算法。
+*   **成果**: 成功申请发明型专利及软件著作权，项目高质量完成并通过验收。
+
+## 校园经历
+---
+**东北大学电视台** | 长视频部 部长 | 2022.09 – 2023.06
+*   **项目策划**: 策划项目计划书，协调多部门合作，组织作品筛选与评估。个人连续获得“校优秀记者”荣誉。
+*   **内容统筹**: 领导14人团队，完成【春夏 秋东】主题视频拍摄制作。视频在B站官方账号发布后获赞过千。
+
+## 自我评价
+---
+*   **专业背景**: 具备生物医学工程专业背景，理论基础扎实，并在实践中持续精进。
+*   **数据分析**: 擅长数据分析，精通各类办公软件，工作严谨细致，责任心强，秉持高标准职业道德，服务导向明确。
+*   **团队协作**: 性格成熟稳重，思维逻辑性强，乐观积极，团队融入佳，富有集体荣誉感。 
