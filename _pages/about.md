@@ -1,7 +1,10 @@
 ---
-permalink: /about/
+permalink: /
 title: "关于我"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 您好，欢迎访问我的个人网站。

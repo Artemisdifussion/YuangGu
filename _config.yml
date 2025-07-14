@@ -13,9 +13,9 @@ title                    : "顾宇昂 (Yuang Gu)"
 title_separator          : "-"
 name                     : "顾宇昂"
 description              : "顾宇昂的个人网站"
-url                      :  # "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : # "[your GitHub username]/[your GitHub username].github.io"
+url                      : "https://artemisdifussion.github.io"
+baseurl                  : "/YuangGu" # the subpath of your site, e.g. "/blog"
+repository               : "artemisdifussion/YuangGu"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
