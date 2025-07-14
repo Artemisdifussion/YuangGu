@@ -17,6 +17,9 @@ url                      : "https://artemisdifussion.github.io"
 baseurl                  : "/YuangGu" # the subpath of your site, e.g. "/blog"
 repository               : "artemisdifussion/YuangGu"
 
+# Minimal Mistakes Theme Settings
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
