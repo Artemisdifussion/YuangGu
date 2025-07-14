@@ -34,9 +34,9 @@ author_profile: true
 ---
 *   **语言水平**: CET-4, CET-6, 雅思6.5，英语可作为工作语言。
 *   **技术栈**:
-    *   熟练运用 TensorFlow 等主流框架，深入掌握多种深度学习算法。
+    *   熟练运用 PyTorch TensorFlow 等主流框架，深入掌握多种深度学习算法。
     *   擅长使用 SQL 与 SPSS 等数据管理与统计分析工具。
-    *   精通 C# 及 WinForm 技术进行软件开发。
+    *   精通多种医学成像设备原理。
     *   熟悉 Qt 框架及 MySQL 数据库。
 *   **办公软件**: 精通 Xmind、Office套件（Word, Excel, PowerPoint）。
 
