@@ -54,21 +54,15 @@
   "skills": [
     {
       "name": "熟练使用Xmind、Axure、Word、Excel、PowerPoint",
-      "level": "",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "擅长Python、Matlab、C++、C等语言",
-      "level": "",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
-      "name": "熟悉Linux系统，掌握Git版本控制，HPC集群使用",
-      "level": "",
-      "keywords": [
-      ]
+      "name": "熟悉Linux系统, 掌握Git版本控制, HPC集群使用",
+      "keywords": []
     }
   ],
   "languages": [],

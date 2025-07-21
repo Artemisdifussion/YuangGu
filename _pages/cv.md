@@ -11,7 +11,7 @@ author_profile: true
 ---
 **帝国理工学院 (Imperial College London)** <br>
 *医学物理* <br>
-2024.09 – 2025.10
+2024.09 – 2025.11
 
 **东北大学 (985/211)** <br>
 *生物医学工程* <br>
@@ -32,7 +32,7 @@ author_profile: true
     *   擅长使用 SQL 与 SPSS 等数据管理与统计分析工具。
     *   精通多种医学成像设备原理。
     *   熟悉 Qt 框架及 MySQL 数据库。
-*   **办公软件**: 精通 Xmind、Office套件（Word, Excel, PowerPoint）。
+*   **办公软件**: 精通 Xmind、Axure、Office套件（Word, Excel, PowerPoint）。
 
 ## 实习经历
 ---
@@ -58,14 +58,14 @@ author_profile: true
     *   有效管理项目进度，定期与导师沟通，确保项目高效执行。
 *   **成果**: 开发出创新的4D-CBCT重建算法，显著提升图像质量，减少扫描时间和辐射暴露。算法能有效消除运动伪影，提高了放疗定位精度。
 
-**基于可穿戴传感技术和深度学习算法的手势识别** | 2023.09 – 2024.06
+**基于可穿戴传感技术和深度学习算法的手势识别** | 2024.06 – 2024.12
 *   **项目背景**: 探索更精准、灵活且适应性强的手势识别解决方案。
 *   **职责**:
     *   系统性回顾74篇文献，把握研究前沿。
     *   设计需求分析框架，兼顾动态与静态手势识别的需求差异。
     *   通过小规模预测试，快速验证三类常用深度学习模型的有效性。
     *   构建模型与任务匹配表，为研究人员提供实用指南，规避风险。
-*   **成果**: 产出论文《基于深度学习算法的可穿戴传感技术的手势识别： 现在、过去与未来》，已投递至SCI一区期刊。
+*   **成果**: 产出论文《Hand Gesture Recognition Based Wearable Sensing Technologies Exploiting Deep Learning Algorithms: Present, Past and Future》，已投递至SCI一区期刊。
 
 ## 项目经历
 ---

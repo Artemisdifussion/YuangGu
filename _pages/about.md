@@ -18,7 +18,7 @@ redirect_from:
     <h2>技能</h2>
     <ul>
     {% for skill in site.data.cv.skills %}
-      <li><b>{{ skill.name }}</b>: {{ skill.keywords | join: ', ' }}</li>
+      <li>{{ skill.name }}</li>
     {% endfor %}
     </ul>
   </div>
