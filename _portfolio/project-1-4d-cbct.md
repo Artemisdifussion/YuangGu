@@ -1,14 +1,9 @@
 ---
 title: "项目一：快速 4D-CBCT 高质量重建和运动补偿"
 excerpt: "本项目聚焦于4D-CBCT（四维锥形束计算机断层扫描），探索创新的重建算法，以适应临床实践中的迫切需求，并与邓迪大学附属医院放射科医生合作，确认减少辐射剂量和提高图像精确度的核心需求。"
-author_profile: true
+collection: portfolio
 date: 2023-10-30
-header:
-  image: /images/500x300.png
-  teaser: /images/500x300.png
-tags:
-  - Spectral CT
-  - Deep Learning
+author_profile: true
 ---
 
 本项目成功开发出了一套创新的4D-CBCT重建算法，实现对降采样数据的有效重建，显著提升图像质量，减少了患者扫描时间和辐射暴露。该算法通过精确的呼吸运动补偿，有效消除了运动伪影，提高了放射治疗的定位精度。此外，项目的核心模型还具备应用于其他3D数据去噪和生成任务的潜力。
