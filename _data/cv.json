@@ -34,46 +34,40 @@
   "education": [
     {
       "institution": "帝国理工学院",
-      "area": "医学物理硕士",
+      "area": "医学物理硕士（电子信息类）",
       "studyType": "",
-      "startDate": "",
-      "endDate": "（即将就读）",
+      "startDate": "2024-09",
+      "endDate": "2025-11",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "（您的本科院校）",
-      "area": "（您的本科学位）",
+      "institution": "东北大学（985工程）",
+      "area": "生物医学工程本科",
       "studyType": "",
-      "startDate": "",
-      "endDate": "（您的毕业年份）",
+      "startDate": "2020-09",
+      "endDate": "2024-06",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [
     {
-      "name": "专业背景",
+      "name": "熟练使用Xmind、Axure、Word、Excel、PowerPoint",
       "level": "",
       "keywords": [
-        "生物医学工程",
-        "理论扎实"
       ]
     },
     {
-      "name": "数据分析",
+      "name": "擅长Python（numpy、pandas、matplotlib、scipy、scikit-learn、pytorch、tensorflow）、掌握Matlab、C++、C",
       "level": "",
       "keywords": [
-        "精通办公软件",
-        "严谨细致"
       ]
     },
     {
-      "name": "团队协作",
+      "name": "熟悉Linux系统，掌握Git版本控制，HPC集群使用",
       "level": "",
       "keywords": [
-        "成熟稳重",
-        "逻辑性强"
       ]
     }
   ],
