@@ -1,14 +1,57 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<div class="filter-buttons">
+  <button class="btn btn--primary" data-filter="all">All</button>
+  {% assign tags = site.portfolio | map: "tags" | join: "," | split: "," | uniq %}
+  {% for tag in tags %}
+    <button class="btn" data-filter="{{ tag | slugify }}">{{ tag }}</button>
+  {% endfor %}
+</div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="grid__wrapper">
+  {% assign posts = site.portfolio | sort: "date" | reverse %}
+  {% for post in posts %}
+    {% include archive-single-grid.html post=post type="grid" %}
+  {% endfor %}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const filterButtons = document.querySelectorAll(".filter-buttons button");
+  const projectCards = document.querySelectorAll(".grid__item");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.filter;
+
+      projectCards.forEach(card => {
+        const postTags = card.querySelector('.archive__item-title a').href;
+        let tags = [];
+        {% for post in site.portfolio %}
+          if("{{post.url | relative_url}}" == postTags.replace(window.location.origin, ''))
+          {
+            tags = {{ post.tags | jsonify }};
+          }
+        {% endfor %}
+        
+        if (filter === "all" || tags.map(t => t.toLowerCase().replace(/ /g, '-')).includes(filter)) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      filterButtons.forEach(btn => btn.classList.remove("btn--primary"));
+      button.classList.add("btn--primary");
+    });
+  });
+});
+</script>
 

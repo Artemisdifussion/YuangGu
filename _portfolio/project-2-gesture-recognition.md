@@ -2,6 +2,13 @@
 title: "项目二：基于可穿戴传感技术和深度学习算法的手势识别"
 excerpt: "本项目旨在克服现有技术的局限性，探索更加精准、灵活且适应性强的手势识别解决方案。"
 author_profile: true
+date: 2023-09-01
+header:
+  image: /images/500x300.png
+  teaser: /images/500x300.png
+tags:
+  - Deep Learning
+  - Optimization
 ---
 
 本项目产出论文《基于深度学习算法的可穿戴传感技术的手势识别： 现在、过去与未来》，为该领域的研究者提供了宝贵的参考和指导。目前该论文已被投递至SCI一区期刊，正等待审稿。

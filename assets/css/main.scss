@@ -41,3 +41,81 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/*
+   Grid Layout for Portfolio
+   ========================================================================== */
+
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid__item {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.grid__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.archive__item-teaser {
+  margin-bottom: 0;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.archive__item-content {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.archive__item-title {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.archive__item-excerpt {
+  flex-grow: 1;
+}
+
+.page__meta {
+  color: #666;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-buttons {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.filter-buttons .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn--primary {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.btn:not(.btn--primary) {
+  background-color: #f0f0f0;
+  color: #333;
+  border-color: #ddd;
+}

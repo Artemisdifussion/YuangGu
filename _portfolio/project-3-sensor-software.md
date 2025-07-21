@@ -2,6 +2,13 @@
 title: "项目三：矩阵式受力应变传感器检测软件V1.0"
 excerpt: "针对现有传感器技术在受力分析及数据可视化方面的局限，本项目旨在开发一款革新性的软件解决方案，基于阵列式柔性导电橡胶传感器，通过高精度的数据采集与处理，为医疗设备提供更为精确的力学参数评估。"
 author_profile: true
+date: 2022-10-04
+header:
+  image: /images/500x300.png
+  teaser: /images/500x300.png
+tags:
+  - Optimization
+  - Bayesian Inference
 ---
 
 本项目成功申请了发明型专利及软件著作权，且在有限预算下实现了高质量完成，通过了验收，为后续研发活动积累了宝贵经验与资源。

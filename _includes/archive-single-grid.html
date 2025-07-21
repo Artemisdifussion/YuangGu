@@ -1,0 +1,19 @@
+{% assign post = include.post %}
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="archive__item-teaser">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+      </a>
+    </div>
+    <div class="archive__item-content">
+      <p class="page__meta">{{ post.date | date: "%d %b %Y" }}</p>
+      <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h3>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncatewords: 35 }}</p>
+      {% endif %}
+    </div>
+  </article>
+</div> 
