@@ -7,11 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-## 个人信息
----
-*   **微信**: gya17602404537
-*   **邮箱**: guyuang364@gmail.com
-
 ## 教育经历
 ---
 **帝国理工学院 (Imperial College London)** <br>
