@@ -33,34 +33,50 @@
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "帝国理工学院",
+      "area": "医学物理硕士",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "（即将就读）",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "（您的本科院校）",
+      "area": "（您的本科学位）",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "（您的毕业年份）",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "专业背景",
+      "level": "",
+      "keywords": [
+        "生物医学工程",
+        "理论扎实"
+      ]
+    },
+    {
+      "name": "数据分析",
+      "level": "",
+      "keywords": [
+        "精通办公软件",
+        "严谨细致"
+      ]
+    },
+    {
+      "name": "团队协作",
+      "level": "",
+      "keywords": [
+        "成熟稳重",
+        "逻辑性强"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
